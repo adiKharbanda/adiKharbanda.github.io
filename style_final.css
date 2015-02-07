@@ -1,17 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.globalHeader
-{
-	position: relative;
-	width: 100%;
-	height: 60px;
-	background-color: rgba(0,0,0,1);
-	
-	opacity:0.8;
-	overflow:hidden;
 
-}
+
 
 .homePage{
 	width: 100%;
@@ -23,15 +14,52 @@
 }
 
 
-.head{
+.globalHeader
+{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0,0,0,1);
+	opacity:0.8;
 
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	overflow: hidden;
+}
+
+
+.head_pic{
+	position: absolute;
+	vertical-align: text-top;
+	color: red;
 	margin-left: 3%;
-	margin-top: 5px;
-	z-index: -10;
+	width: 100px;
+
+}
+
+.testadi{
+	background: red;
+border-radius: 24px;
+box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+font: 600 12px/14px "DINWeb","Lucida Grande",verdana,sans-serif;
+padding: 2px;
+position: absolute;
+top: 0px;
+left: 40px;
+text-align: center;
+height: 12px;
+width: 12px;
+color: #FFF;
+}
+
+.head{
+	background: url(images/head.png);
+	background-size: cover;
+	
+border-radius: 40px;
+display: block;
+height: 54px;
+width: 54px;
+transition: all 200ms ease-out;
+opacity: 0.84;
+
 }
 
 
@@ -53,13 +81,9 @@ pointer-events: none;
 position: absolute;
 top: 11%;
 left: 8%;
-width: 25%;
-height: 49%;
-transition-timing-function: cubic-bezier(0.135,1.225,0.21,1.09);
-transition-timing-function: cubic-bezier(0.145,1.075,0.345,1.12);
-transition-delay: 120ms;
-transition-duration: 280ms;
-transition-duration: 450ms;
+width: 368px;
+height: 250px;
+
 opacity:0;
 
 }
@@ -108,9 +132,13 @@ text-align: center;
 	font: 500 12px/1.5 "DINWeb","Lucida Grande",verdana,sans-serif;
 }
 
+
+
 .Projects{
 	color: #FFF;
 	font: 500 12px/1.5 "DINWeb","Lucida Grande",verdana,sans-serif;
+
+
 }
 
 
@@ -137,7 +165,7 @@ li{
 	width: 100%;
 	height: 720px;
 	overflow: hidden;
-	background-image: url(images/introPic.png);
+	background-image: url(images/capture);
 	background-position: 0% 10%;
 	z-index: -1;
 }
@@ -170,7 +198,8 @@ li{
 	background-color: rgba(0,0,0,0.93);
 	opacity: 0.9;
 	margin:0;
-	padding:0;
+
+	
 }
 
 .timeline_space{
@@ -234,6 +263,22 @@ vertical-align: baseline;
 	
 }
 
+
+.bar2{
+	right: 28%;
+	background: #E5E1E5;
+display: block;
+opacity: 0.6;
+position: absolute;
+height: 1px;
+left: 30%;
+-webkit-transform-origin: 0 0;
+transition: all 320ms ease-in;
+vertical-align: baseline;
+	
+}
+
+
 .circle_measurement{
 	position: absolute;
 	top: 0;
@@ -284,6 +329,7 @@ top: -50px;
 transition: all 320ms ease-in;
 vertical-align: baseline;
 opacity: 0;
+
 }
 
 .timelineList{
@@ -296,11 +342,12 @@ opacity: 0;
 }
 
 
-.projects{
-	position: relative;
+#Projects{
+	margin-top: -5%;
 	padding: 0;
 	width: 100%;
 	height:auto;
+	background: rgba(242,242,242,0.85);
 
 	
 }
@@ -367,13 +414,7 @@ text-transform: uppercase;
     opacity: 1;
 	}
 
-.test{
-display:none;	
-}
 
-.test2{
-display:none;	
-}
 
 .grid{
 	position:relative;
@@ -407,7 +448,7 @@ display:none;
 	position: relative;
 	height: 300px;
 	box-sizing: border-box;
-	background-color: rgba(242,242,242,0.85);
+		background: #EEE;
 
 }
 
@@ -419,24 +460,38 @@ text-rendering: optimizeLegibility;
 background-color: rgba(242,242,242,0.85);
 }
 
-
-
-
-
 .foot {
 
-	background-color: #000000;
-	color: #FFFFFF;
-	font-weight:600;
-	font-size: x-small;
+	
 	text-align: center;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
+	background: rgba(242,242,242,0.85);
 	
 }
 
+footer .social{
+	margin-bottom: 5em;
+}
+
+footer p{
+
+width: 80%;
+max-width: 570px;
+font-size: 18px;
+line-height: 28px;
+text-rendering: optimizeLegibility;
+}
+
+footer a{
+	margin: 1em 0.5em 1em 0.5em;
+}
+ 
+footer .social .first{
+	margin-left: 0;
+}
 
 @media (max-width: 900px) {
 
@@ -536,7 +591,7 @@ font: 500 8px/1.5 "DINWeb","Lucida Grande",verdana,sans-serif;
 
 
 
-</style>
+
 
 
 
