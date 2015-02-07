@@ -472,18 +472,11 @@ background-color: rgba(242,242,242,0.85);
 	
 }
 
-footer .social{
+foot .social{
 	margin-bottom: 5em;
 }
 
-footer p{
 
-width: 80%;
-max-width: 570px;
-font-size: 18px;
-line-height: 28px;
-text-rendering: optimizeLegibility;
-}
 
 footer a{
 	margin: 1em 0.5em 1em 0.5em;
