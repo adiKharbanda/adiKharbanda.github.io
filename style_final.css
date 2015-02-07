@@ -353,11 +353,13 @@ opacity: 0;
 }
 
 .projectText{
+	
 	font: 500 12px/1.5 "DINWeb","Lucida Grande",verdana,sans-serif;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 -webkit-font-smoothing: antialiased;
 	text-align: center;
+
 	font-size: 36px;
 	margin-top: 5%;
 	
@@ -435,7 +437,7 @@ text-transform: uppercase;
 
 .grid li
 {
-	position:absolute;
+	position: relative;
 	display: inline-block;
 	width: 400px;
 	margin-right: 4%;
@@ -445,8 +447,8 @@ text-transform: uppercase;
 	padding-left: 30px;
 	padding-bottom: 30px;
 	text-align: left;
-	position: relative;
-	height: 300px;
+	vertical-align:top;
+	height: 280px;
 	box-sizing: border-box;
 		background: #EEE;
 
@@ -462,7 +464,6 @@ background-color: rgba(242,242,242,0.85);
 
 .foot {
 
-	
 	text-align: center;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -477,6 +478,15 @@ foot .social{
 }
 
 
+footer p{
+	font: 500 12px "DINWeb","Lucida Grande",verdana,sans-serif;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+    
+
+text-align:center;
+}
 
 footer a{
 	margin: 1em 0.5em 1em 0.5em;
@@ -485,6 +495,55 @@ footer a{
 footer .social .first{
 	margin-left: 0;
 }
+
+
+/*portfolio
+font: 500 12px/20 "DINWeb","Lucida Grande",verdana,sans-serif;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+*/
+	.fdw-background{ background-color:rgba(0,0,0,0.6);opacity:0; margin-top:-16px; width:340px; height:220px; }
+	.fdw-background h4{font: 500 12px/5 "DINWeb","Lucida Grande",verdana,sans-serif;
+letter-spacing: 0.1em;text-transform: uppercase;
+-webkit-font-smoothing: antialiased; text-align:center; padding:40px 40px 0; }
+	.fdw-background .fdw-port{ text-align:center; padding:0 40px 0; }
+	.fdw-background .fdw-port a{ padding:8px 15px; font: 7px "DINWeb","Lucida Grande",verdana,sans-serif;
+letter-spacing: 0.1em;text-transform: uppercase;
+-webkit-font-smoothing: antialiased; }
+	/*subtitle*/
+	.fdw-subtitle{ font-size:0.8em; margin-top:-20px; color:#0CF; }
+	.fdw-subtitle a{ color:#F90; }
+	/*columns*/
+	.c-two{ width:340px ; height:220px !important; }
+	/*align*/
+	.a-center{ text-align:center; }
+	/*border*/
+	.border{ border:1px solid #CCC; margin:-1px;}
+	/*link buttons*/
+    .fdw-port a{ 
+		background-color:#336699; 
+		color:#fff; 
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-o-border-radius:3px;
+		-webkit-box-shadow: 0 3px 0 #0f3963, 3px 5px 3px #333;
+		-moz-box-shadow: 0 3px 0 #0f3963, 3px 5px 3px #333;
+		box-shadow: 0 3px 0 #0f3963, 3px 5px 3px #333;
+		-o-box-shadow: 0 3px 0 #0f3963, 3px 5px 3px #333;
+		text-shadow:0 1px 1px #000;
+	}
+    .fdw-port a:hover{ 
+		background-color:#f2f2f2; 
+		color:#336699 !important; 
+		text-shadow:0 1px 1px #ccc;
+		-webkit-box-shadow: 0 3px 0 #ccc, 3px 5px 3px #333;
+		-moz-box-shadow: 0 3px 0 #ccc, 3px 5px 3px #333;
+		box-shadow: 0 3px 0 #ccc, 3px 5px 3px #333;
+		-o-box-shadow: 0 3px 0 #ccc, 3px 5px 3px #333;
+	}
+	
 
 @media (max-width: 900px) {
 
