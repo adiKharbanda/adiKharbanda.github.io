@@ -24,6 +24,15 @@
 
 }
 
+.text-middle{
+	vertical-align:middle;
+	text-transform:uppercase;
+	color:#FFF;
+	font-size:36px;
+	font-weight:600;
+	text-align:center;
+}
+
 
 .head_pic{
 	position: absolute;
@@ -50,8 +59,9 @@ color: #FFF;
 }
 
 .head{
-	background: url(images/head.png);
+	background: url(images/head.jpg);
 	background-size: cover;
+	background-position: -5px 0%;
 	
 border-radius: 40px;
 display: block;
