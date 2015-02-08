@@ -59,10 +59,8 @@ color: #FFF;
 }
 
 .head{
-	background: url(images/head.png);
-	background-size: cover;
-	background-position: -5px 0%;
-	
+background: url(images/head);
+background-size: cover;	
 border-radius: 40px;
 display: block;
 height: 54px;
